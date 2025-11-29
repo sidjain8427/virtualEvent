@@ -27,7 +27,7 @@ describe("UserService Tests", () => {
     describe("register()", () => {
 
         test("should register a new user", async () => {
-            const dto = { name: "Hari", email: "hari@example.com", password: "123456" };
+            const dto = { name: "Sid", email: "sid@example.com", password: "123123" };
             mockValidator.vaildateRegister.mockReturnValue(dto);
             mockRepo.findByEmail.mockResolvedValue(null);
             const mockSavedUser = { id: "fake-id", ...dto } as any;

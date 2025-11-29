@@ -82,8 +82,8 @@ src/
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/Techharik/virutualEvent.git
-cd virutualEvent
+git clone https://github.com/sidjain8427/virtualEvent.git
+cd virtualEvent
 ```
 
 ## 2. Install dependencies
